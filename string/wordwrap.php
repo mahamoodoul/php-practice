@@ -1,0 +1,3 @@
+<?php
+$string="Lorem ipsum dolor sitaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa amet, consectetur adipiscing elit. Aliquam quis purus erat. Fusce sollicitudin lorem nec dolor pellentesque, vitae eleifend orci sagittis. Aliquam eleifend iaculis mauris, pretium pellentesque elit consectetur nec. Phasellus vitae elementum nisi, eget scelerisque elit. Morbi sit amet elit malesuada, vulputate ante id, interdum velit. Morbi et venenatis quam. Ut rutrum nulla id ipsum ultrices aliquet ac eu ipsum. Phasellus convallis justo eu urna pellentesque, a elementum mi gravida. Etiam et rhoncus elit. Sed elit sem, lobortis eget fringilla vel, scelerisque tincidunt odio. Cras in vehicula enim";
+echo wordwrap($string,26,"\n",true);
